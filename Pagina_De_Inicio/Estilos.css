@@ -6,7 +6,7 @@
 
 :root {
     --background: linearGradient(135deg, #667eea7e 0%, #764ba298);
-    --color-primary: #667eea;
+    --color-primary: black;
     --boton-padding: 20px 40px;
 }
 
@@ -19,8 +19,6 @@ body {
 }
 
 .nav {
-    display: flex;
-    justify-content: flex-end;
     height: 70px;
     align-items: center;
     font-weight: 700;
@@ -32,7 +30,7 @@ body {
 }
 
 .nav__items{
-    color: #667eea;
+    color: black;
     text-decoration: none;
     margin-right: 20px;
     padding: 10px 15px;
